@@ -11,7 +11,7 @@ DEBUG_NONOS = 0
 
 DD = dd status=none bs=1k of=$@ seek=
 
-#CROSS = ../../../../crossgcc/gcc-arm-9.2-2019.12-x86_64-arm-none-eabi/bin/arm-none-eabi-
+CROSS = /usr/bin/arm-none-eabi-
 TOPDIR = $(abspath .)
 
 ifneq ($(CROSS),)
